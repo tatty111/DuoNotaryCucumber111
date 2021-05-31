@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 
 @CucumberOptions(
 
-//
+
         tags = "@current",
         features = "src/test/resources/features", // path to the feature files folder
         glue = "stepDefs" // path to step definition classes (glue code, implementation code)
@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
         "rerun:target/failed-scenarios.txt"
         }
 
-
+//
 )
 public class CukeRunner {
 
